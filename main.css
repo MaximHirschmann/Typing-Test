@@ -1,0 +1,70 @@
+#body {
+    background-color: rgb(36, 36, 36);
+    color:  rgb(255, 255, 255);
+    margin: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#heading {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+#erwartung {
+    padding: 10px;
+    text-align: center;
+    background-color: #ff8800;
+    box-shadow: black 2px 4px 2px;
+    margin-bottom: 3rem;
+    color: black;
+}
+#input {
+    background-color: #FFFFFF;
+    resize: both;
+    margin-bottom: 3rem;
+    width:  70%;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+#timer {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+#anzeige {
+    display: flex;
+    background-color: #ff8800;
+    color: black;
+    box-shadow: black 2px 4px 2px;
+    margin-bottom: 3rem;
+}
+.feld {
+    padding: 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    border: 1px solid;
+}
+#info {
+    margin-top: 3rem;
+}
+.falsch {
+    color: red;
+    text-decoration: underline;
+}
+
+.richtig {
+    color: darkgreen;
+}
+#rekorde {
+    background-color: #ff8800;
+    color: black;
+    border: 1px solid;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.rekord-feld {
+    padding: 1rem;
+    font-size: 2rem;
+}
